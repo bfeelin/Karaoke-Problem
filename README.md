@@ -1,6 +1,4 @@
 # Karaoke-Problem
-
-# Karaoke
 One song is extremely popular recently, so you and your friends decided to sing it at a karaoke bar. The song has 3 characters, so exactly 3 people should sing together each time (yes, there are 3 microphones in the room). There are exactly 9 people, so you decided that each person sings exactly once. In other words, all the people are divided into 3 disjoint groups, so that every person is in exactly one group.
 However, some people don't want to sing with some other people, and some combinations perform worse than others combinations. Given a score for every possible combination of 3 people, what is the largest possible score for all the 3 groups?
 # Input
