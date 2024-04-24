@@ -1,0 +1,23 @@
+# Notes
+
+I feel that this is almost a “brute-force” solution, although I could not think of a more efficient way. It was not specified in the problem, but if the input was ordered by score, a comparison between the winning total and (current total + current score) could be added to the innermost for loop that would shorten execution time in some cases. 
+I have included pseudocode of the findBest() method
+
+# Pseudocode
+For every group
+{
+	For every compatible group
+	{
+		Find what group is compatible with current 2
+		For every matching group
+		{
+			If score for this group > current winner of 3rd spot
+				Current winner of 3rd = this score
+		}
+    If no compatible 3rd group found
+	    Continue for loop
+    If total for these 3 groups > current winner
+			Current winner = this total
+			Continue for loop
+  }
+}
