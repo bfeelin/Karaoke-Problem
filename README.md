@@ -6,16 +6,7 @@ The input consists of at most 1000 test cases. Each case begins with a line cont
 # Output
 For each test case, print the case number and the largest score. If it is impossible, print -1.
 # Sample Input
-3
-1 2 3 1
-4 5 6 2
-7 8 9 3
-4
-1 2 3 1
-1 4 5 2
-1 6 7 3
-1 8 9 4
-0
+See input file
 # Output for the Sample Input
 Case 1: 6
 Case 2: -1
